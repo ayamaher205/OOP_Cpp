@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class complex {
+class Complex {
 private:
     int real;
     int image;
@@ -19,8 +19,8 @@ public:
         return image;
     }
     // create some Member functions of class 
-    complex addMember(complex c2) {
-        complex c3;
+    Complex addMember(Complex c2) {
+        Complex c3;
         c3.real = real + c2.real;
         c3.image = image + c2.image;
         return c3;
@@ -34,24 +34,24 @@ public:
             cout << "+ " << image << "j = " << "\n";
         }
     }
-    complex subMember(complex c2) {
+    Complex subMember(Complex c2) {
         complex c3;
         c3.real = real - c2.real;
         c3.image = image - c2.image;
         return c3;
     }
     // create friend function of class 
-    friend void printfriend(complex c);
+    friend void printfriend(Complex c);
 };
 
 // create some stand alone functions of class 
-complex add(complex c1, complex c2) {
-    complex c3;
+Complex add(Complex c1, Complex c2) {
+    Complex c3;
     c3.setReal(c1.getReal() + c2.getReal());
     c3.setImage(c1.getImage() + c2.getImage());
     return c3;
 }
-void print(complex c) {
+void print(Complex c) {
     cout << c.getReal() << " ";
     if (c.getImage() < 0) {
         cout << c.getImage() << "j = " << "\n";
@@ -63,13 +63,13 @@ void print(complex c) {
         cout << c.getReal() << "\n";
     }
 }
-complex sub(complex c1, complex c2) {
-    complex c3;
+Complex sub(Complex c1, Complex c2) {
+    Complex c3;
     c3.setReal(c1.getReal() - c2.getReal());
     c3.setImage(c1.getImage() - c2.getImage());
     return c3;
 }
-void printfriend(complex c) {
+void printfriend(Complex c) {
     cout << c.real << " ";
     int res = c.real + c.image;
     if (c.image < 0) {
@@ -84,7 +84,7 @@ void printfriend(complex c) {
 }
 int main()
 {
-    complex c, c1, c2, c3;
+    Complex c, c1, c2, c3;
     int real1, image1, real2, image2;
     cout << "Enter real number one" << endl;
     cin >> real1;
