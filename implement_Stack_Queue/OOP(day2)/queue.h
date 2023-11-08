@@ -32,7 +32,7 @@ public:
 	}
 	void dequeue() {
 		if (isEmpty()) {
-			cout << "UnderFlow" << endl;
+			cout << "queue is Empty" << endl;
 		}
 		else {
 			int x = arr[front];
