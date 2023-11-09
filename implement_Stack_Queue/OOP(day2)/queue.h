@@ -7,15 +7,15 @@ private:
 	int front;
 	int rear;
 	int *arr;
-	int getsize() {
-		return size;
-	}
 public:
 	Queue();
 	Queue(int _size) {
 		rear = -1, front = -1;
 		size = _size;
 		arr = new int[size] {0};
+	}
+	int getsize() {
+		return size;
 	}
 	void enqueue(int x) {
 		if (!isFull()) {
