@@ -5,7 +5,6 @@ class Stack {
 private:
 	int size;
 	int top;
-	int rear;
 	int* arr;
 public:
 	int getsize() {
