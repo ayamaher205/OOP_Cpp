@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1699532698 source:e:\iti\cpp\new folder (2)\oop_cpp\implement_stack_queue\oop(day2)\stack_queue.cpp
+	<iostream>
+	"queue.h"
+	"stack.h"
+
+1699532698 e:\iti\cpp\new folder (2)\oop_cpp\implement_stack_queue\oop(day2)\queue.h
+	<iostream>
+
+1699532698 e:\iti\cpp\new folder (2)\oop_cpp\implement_stack_queue\oop(day2)\stack.h
+	<iostream>
+

@@ -4,6 +4,7 @@
 using namespace std;
 int main() {
 	Stack s(5);
+	Stack s1 = s;
 	s.pop();
 	s.push_back(3);
 	s.push_back(2);
@@ -17,8 +18,11 @@ int main() {
 	s.pop();
 	s.pop();
 	s.pop();
+	s1.pop();
+	s1.pop();
 	cout << "\n";
 	Queue q(5);
+	Queue q1 = q;
 	q.dequeue();
 	q.enqueue(5);
 	q.enqueue(7);

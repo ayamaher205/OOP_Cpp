@@ -16,6 +16,14 @@ public:
 		size = _size;
 		arr = new int[size] {0};
 	}
+	Stack(Stack& s) {
+		s.top = -1;
+		size = s.size;
+		arr = new int[size];
+		for (int i = 0; i < size; i++) {
+			arr[i] = s.arr[i];
+		}
+	}
 	void push_back(int x) {
 		if (!isFull()) {
 			top++;

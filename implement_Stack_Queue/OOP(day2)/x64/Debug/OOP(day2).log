@@ -1,2 +1,3 @@
-﻿  day2.cpp
-  OOP(day2).vcxproj -> E:\ITI\CPP\OOP(day2)\x64\Debug\OOP(day2).exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OOP(day2).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stack_queue.cpp
+  OOP(day2).vcxproj -> E:\ITI\CPP\New folder (2)\OOP_Cpp\implement_Stack_Queue\x64\Debug\implement_Stack_Queue.exe
