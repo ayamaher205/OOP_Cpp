@@ -1,0 +1,16 @@
+#ifndef POINT_
+#define POINT_
+
+
+class Point
+{
+    public:
+        Point() {}
+        virtual ~Point() {}
+
+    protected:
+
+    private:
+};
+
+#endif // POINT_

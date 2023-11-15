@@ -1,0 +1,16 @@
+#ifndef CIRLCLE_
+#define CIRLCLE_
+
+
+class Cirlcle
+{
+    public:
+        Cirlcle() {}
+        virtual ~Cirlcle() {}
+
+    protected:
+
+    private:
+};
+
+#endif // CIRLCLE_

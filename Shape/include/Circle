@@ -1,0 +1,16 @@
+#ifndef CIRCLE_
+#define CIRCLE_
+
+
+class Circle
+{
+    public:
+        Circle() {}
+        virtual ~Circle() {}
+
+    protected:
+
+    private:
+};
+
+#endif // CIRCLE_

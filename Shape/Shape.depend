@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1700052984 source:e:\iti\cpp\shape\main.cpp
+	<iostream>
+	"Shape.h"
+	"Line.h"
+	"Circle.h"
+	"Rectangle.h"
+
+1700051067 e:\iti\cpp\shape\shape.h
+	"Point.h"
+	<string.h>
+
+1699966425 e:\iti\cpp\shape\point.h
+	<iostream>
+
+1700052114 e:\iti\cpp\shape\line.h
+	<graphics.h>
+
+1700052108 e:\iti\cpp\shape\circle.h
+	<graphics.h>
+
+1700052174 e:\iti\cpp\shape\rectangle.h
+	<graphics.h>
+
